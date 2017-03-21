@@ -27,4 +27,9 @@ public class AlbumTest {
     assertEquals("Metal", newAlbum.getGenre());
   }
 
+  @Test
+  public void getAllAlbums_doAllAlbumsList_arraylist() {
+    List<Object> listOfAlbums = new ArrayList<Object>();
+    assertEquals("", listOfAlbums.getAllAlbums)
+  }
 }
