@@ -10,10 +10,10 @@ public class AlbumTest {
   } // to pass this test we need to create a CD class, and the Cd method which creates an instance of the CD object.
 
   @Test
-  public void AlbumTitle_addCdAlbumNameToObject_string() {
+  public void getTitle_addCdAlbumNameToObject_string() {
     Album newAlbum = new Album("Dark Side of The Moon");
-    String albumName = "Dark Side of The Moon";
-    assertEquals(albumName, newAlbum.albumName("Dark Side of The Moon"));
+    // String albumTitle = "Dark Side of The Moon";
+    assertEquals("Dark Side of The Moon", newAlbum.getTitle());
   }
 
 }

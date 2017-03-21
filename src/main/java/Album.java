@@ -1,5 +1,5 @@
 public class Album {
-  public String mTitle;
+  private String mTitle;
   // private String mArtist;
   // private String mGenre;
 
@@ -9,9 +9,8 @@ public class Album {
     //mGenre = genre;
   }
 
-  public String AlbumTitle(String title) {
-
-    return title;
+  public String getTitle() {
+    return mTitle;
 
   }
 }
