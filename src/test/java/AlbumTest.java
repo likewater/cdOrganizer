@@ -22,7 +22,7 @@ public class AlbumTest {
   }
 
   @Test
-  public void getGenre_addGenreToObject_string()
+  public void getGenre_addGenreToObject_string() {
     Album newAlbum = new Album("One", "Metallica", "Metal");
     assertEquals("Metal", newAlbum.getGenre());
   }
