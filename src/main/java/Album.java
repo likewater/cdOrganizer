@@ -19,7 +19,7 @@ public class Album {
   }
 
   public String getGenre() {
-    return ""; //to fail test
+    return mGenre; //code to pass test
   }
 
 }
