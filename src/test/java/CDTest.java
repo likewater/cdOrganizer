@@ -1,5 +1,5 @@
 import org.junit.*;
-import static org.juit.Assert.*;
+import static org.junit.Assert.*;
 
 public class CDTest {
 

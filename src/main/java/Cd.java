@@ -1,11 +1,11 @@
 public class Cd {
-  private String mAlbum =  album;
-  private String mArtist = artist;
-  private String mGenre = genre;
+  private String mAlbum;
+  private String mArtist;
+  private String mGenre;
 
-  Cd newCd = new Cd(String album) {
+  public Cd(String album) {
     mAlbum = album;
-    mArtist = artist;
-    mGenre = genre;
+    //mArtist = artist;
+    //mGenre = genre;
   }
 }
