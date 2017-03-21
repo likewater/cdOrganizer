@@ -1,12 +1,12 @@
 public class Album {
   private String mTitle;
   private String mArtist;
-  // private String mGenre;
+  private String mGenre;
 
-  public Album(String title, String artist) {
+  public Album(String title, String artist, String genre) {
     mTitle = title;
     mArtist = artist;
-    //mGenre = genre;
+    mGenre = genre;
   }
 
   public String getTitle() {
@@ -15,6 +15,6 @@ public class Album {
   }
 
   public String getArtist() {
-    return "";
+    return ""; //code to fail test.
   }
 }

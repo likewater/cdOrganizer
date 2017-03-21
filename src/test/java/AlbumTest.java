@@ -5,19 +5,19 @@ public class AlbumTest {
 
   @Test
   public void Album_createsObjectCorrectly_true() {
-    Album newAlbum = new Album("Dark Side of The Moon");
+    Album newAlbum = new Album("Dark Side of The Moon", "xyz", "abc");
     assertEquals(true, newAlbum instanceof Album);
   } // to pass this test we need to create a CD class, and the Cd method which creates an instance of the CD object.
 
   @Test
   public void getTitle_addAlbumNameToObject_string() {
-    Album newAlbum = new Album("Dark Side of The Moon");
+    Album newAlbum = new Album("Dark Side of The Moon", "Abu", "Dew");
     assertEquals("Dark Side of The Moon", newAlbum.getTitle());
   }
 
   @Test
   public void getArtist_addAlbumArtistToObject_string() {
-    Album newAlbum = new Album("One", "Metallica");
+    Album newAlbum = new Album("One", "Metallica", "Metal");
     assertEquals("Metallica", newAlbum.getArtist());
   }
 }
