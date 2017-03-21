@@ -20,4 +20,11 @@ public class AlbumTest {
     Album newAlbum = new Album("One", "Metallica", "Metal");
     assertEquals("Metallica", newAlbum.getArtist());
   }
+
+  @Test
+  public void getGenre_addGenreToObject_string() {
+    Album newAlbum = new Album("One", "Metallica", "Metal");
+    assertEquals("Metal", newAlbum.getGenre());
+  }
+
 }

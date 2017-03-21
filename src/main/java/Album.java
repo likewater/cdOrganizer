@@ -15,6 +15,11 @@ public class Album {
   }
 
   public String getArtist() {
-    return ""; //code to fail test.
+    return mArtist; //to pass test
   }
+
+  public String getGenre() {
+    return ""; //to fail test
+  }
+
 }
